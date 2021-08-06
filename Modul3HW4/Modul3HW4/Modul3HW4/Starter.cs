@@ -10,6 +10,7 @@ namespace Modul3HW4
     {
         public void Run()
         {
+            Console.WriteLine();
         }
 
         public int Sum(int a, int b)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modul3HW4
 {
-    class Class1
+    public class Class1
     {
     }
 }
