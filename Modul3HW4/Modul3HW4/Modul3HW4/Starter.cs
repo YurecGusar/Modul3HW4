@@ -11,6 +11,8 @@ namespace Modul3HW4
         private int _res;
         public void Run()
         {
+            var task2 = new LINQTest();
+            task2.LINQStart();
             var class1 = new Class1();
             class1.SumDelHandler += Sum;
             class1.SumDelHandler += Sum;
