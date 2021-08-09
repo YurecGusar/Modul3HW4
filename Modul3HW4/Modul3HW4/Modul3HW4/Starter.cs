@@ -8,13 +8,11 @@ namespace Modul3HW4
 {
     public class Starter
     {
+        private Class1 _delegatTask = new Class1();
         public void Run()
         {
-        }
-
-        public int Sum(int a, int b)
-        {
-            return a + b;
+            _delegatTask.RunTask();
+            Console.WriteLine();
         }
     }
 }
